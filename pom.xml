@@ -31,19 +31,6 @@
         </dependency>
     </dependencies>
 
-    <repositories>
-        <repository>
-            <id>baidu-nexus</id>
-            <url>http://maven.scm.baidu.com:8081/nexus/content/groups/public</url>
-            <releases>
-                <enabled>true</enabled>
-            </releases>
-            <snapshots>
-                <enabled>true</enabled>
-            </snapshots>
-        </repository>
-    </repositories>
-
     <build>
         <plugins>
             <plugin>
